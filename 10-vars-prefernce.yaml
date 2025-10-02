@@ -3,8 +3,8 @@
   connection: local
   vars:
     NAME: from play leval
-  vars_files: 
-  - course.yaml
+  # vars_files: 
+  # - course.yaml
   vars_prompt:
   - name: NAME
     prompt: what is your NAME?
@@ -19,3 +19,5 @@
 
 
 #1. args or command line
+#2. from task leval
+#3. from files
