@@ -65,6 +65,9 @@
 
   - name: print the command_output
     ansible.builtin.debug:
-      msg: "{{ command_output }}"      
+      msg: "{{ command_output }}"     
+
+  - name: redirect the output
+    ansible.builtin.command: ls -ltr > /tmp/output.txt
 
 
